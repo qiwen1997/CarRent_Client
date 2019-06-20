@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.car.rent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+         android:name="com.car.rent.application.AppApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        <activity
+            android:name="com.car.rent.HomeActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      	<activity android:name=".CarLookActivity" />
+      	<activity android:name=".OrderActivity" />
+      	<activity android:name=".MyOrderActivity" />
+      	<activity android:name=".HistoryOrderActivity" />
+      	<activity android:name=".PersonalModifyActivity" />
+      	<activity android:name=".PersonalActivity" />
+      	<activity android:name=".CarDetailActivity" />
+      	
+      	<activity android:name=".LoginActivity" />
+      	<activity android:name=".RegisterActivity" />
+    </application>
+
+</manifest>

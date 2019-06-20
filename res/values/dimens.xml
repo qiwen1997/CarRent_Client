@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="ptr_progress_bar_stroke_width">4.0dip</dimen>
+    <dimen name="base_list_title_text_size">15.0sp</dimen>
+    <dimen name="biz_fb_paddingx5">5.0dip</dimen>
+    <dimen name="biz_fb_paddingx10">10.0dip</dimen>
+    <dimen name="biz_fb_paddingx20">20.0dip</dimen>
+    <dimen name="biz_tie_comment_reply_height">54.0dip</dimen>
+    <dimen name="biz_tie_comment_reply_text_size">14.0sp</dimen>
+    <dimen name="biz_tie_comment_reply_padding">0.0dip</dimen>
+    <dimen name="setting_item_height">70.0dip</dimen>
+    <dimen name="setting_item_padding">10.0dip</dimen>
+    <dimen name="setting_item_text_size">16.0sp</dimen>
+    <dimen name="setting_item_magin_left">15.0dip</dimen>
+    <dimen name="setting_text_magin_left">15.0dip</dimen>
+    <dimen name="nav_item_text_size">18.0sp</dimen>
+    <dimen name="nav_inner_item_text_size">16.0sp</dimen>
+    <dimen name="nav_item_magin_left">10.0dip</dimen>
+    <dimen name="nav_text_magin_left">10.0dip</dimen>
+    <dimen name="nav_magin_left">10.0dip</dimen>
+    <dimen name="download_sub_height">130dip</dimen>
+    <dimen name="tab_menu_txtsize">15sp</dimen>
+    <dimen name="tab_menu_bg_height">110dp</dimen>
+    <dimen name="main_button_margin">4dp</dimen>
+    <dimen name="main_layout_margin">8dp</dimen>
+    <dimen name="main_content_padding">25dp</dimen>
+    <dimen name="main_title_text_padding">5dp</dimen>
+    <dimen name="main_title_text_size">16sp</dimen>
+    <dimen name="sync_tab_title_size">22sp</dimen>
+    <dimen name="bar_bottom_height">50dp</dimen>
+    <dimen name="user_edit_height">40dp</dimen>
+    <dimen name="user_button_height">40dp</dimen>
+    <dimen name="user_button_width">110dp</dimen>
+    <!-- 文本 -->
+    <dimen name="txt_h1">25dp</dimen>
+    <dimen name="txt_h2">20dp</dimen>
+    <dimen name="txt_h3">17dp</dimen>
+    <dimen name="txt_h4">15dp</dimen>
+    <dimen name="txt_h5">13dp</dimen>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:background="@drawable/rootblock_default_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dip"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/home_model0_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="4dip"
+                    android:layout_weight="1"
+                    android:background="#0cbeba"
+                    android:gravity="top" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:padding="10dip"
+                        android:text="查看*预定车辆"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="top"
+                        android:padding="10dip"
+                        android:src="@drawable/home_model0"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+				
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="4dip"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/home_model1_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="4dip"
+                        android:layout_weight="1"
+                        android:background="#84d018"
+                        android:textColor="#fff" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:padding="10dip"
+                            android:text="我的预定"
+                            android:textColor="#fff"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/main_post_counts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                           
+                            android:gravity="center"
+                            android:paddingLeft="6dip"
+                            android:paddingRight="6dip"
+                            android:textColor="#fff"
+                            android:visibility="gone"
+                            />
+
+              
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:paddingTop="20dip"
+                            android:src="@drawable/home_model1" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/home_model2_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="4dip"
+                        android:layout_weight="1"
+                        android:background="#ffa31d" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:padding="10dip"
+                            android:text="历史记录"
+                            android:textColor="#fff"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/main_islogin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center"
+                            android:padding="10dip"
+                           
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:paddingTop="20dip"
+                            android:src="@drawable/home_model2" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/home_model3_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#35aae7"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:padding="10dip"
+                        android:text="个人中心"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="top"
+                        android:padding="20dip"
+                        android:src="@drawable/home_model3"
+                        android:text="搜索·订阅"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+                 <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                   
+                   
+                    
+                </LinearLayout>
+            </LinearLayout>
+                
+            
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

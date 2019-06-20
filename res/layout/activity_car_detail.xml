@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rootblock_default_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bar_bottom_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/english_pressed" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汽车详细信息"
+            android:textColor="#000000"
+            android:textSize="@dimen/txt_h3" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:stretchColumns="1" >
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow android:layout_marginTop="15dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="25dip"
+                    android:text="汽车牌号："
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/car_detail_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dip"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="25dip"
+                    android:paddingTop="5dip"
+                    android:text="类型："
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/car_detail_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:paddingRight="5dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="25dip"
+                    android:text="生产商："
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/car_detail_producer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:paddingRight="5dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="25dip"
+                    android:text="租金："
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/car_detail_price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:paddingRight="5dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="25dip"
+                    android:text="押金："
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/car_detail_yajin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:paddingRight="5dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="25dip"
+                    android:text="备注："
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/car_detail_note"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:paddingRight="5dip" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+           
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">汽车租赁系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">汽车租赁系统</string>
+
+   <array name="seat_choice">
+    	<item name = "seat_id">预定</item>
+    
+    </array>
+    <array name="myorder_choice">
+    	<item name = "cancel_order">取消预定</item>
+    
+    </array>
+</resources>

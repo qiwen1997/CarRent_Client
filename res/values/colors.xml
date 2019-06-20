@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="green">#ff00ff00</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="default_progress_bar_color">#ff33b5e5</color>
+    <color name="base_bg_color">#ffffffff</color>
+    <color name="base_edittext_hint_color">#ffa4a6b0</color>
+    <color name="base_black">#ff000000</color>
+    <color name="base_white">#ffffffff</color>
+    <color name="base_red">#ffff0000</color>
+    <color name="biz_tie_reply">#ff545454</color>
+    <color name="color_copy_right">#ffababab</color>
+    <color name="color_nav_text">#ff414141</color>
+    <color name="color_dialog_ok">#fffb5365</color>
+    <color name="spb_default_color">#ff33b5e5</color>
+    <color name="magazine_title_font">#ff212020</color>
+    <color name="process_bakground">#80000000</color>
+    <color name="book_bar_color">#80000000</color>
+    <color name="syn_book_bg">#ff6678</color>
+    <color name="exam_and_account_bg">#ffcc33</color>
+    <color name="famous_book_bg">#9755f6</color>
+    <color name="best_head_bg">#fe864b</color>
+    <color name="user_manager_bg">#0fc4d9</color>
+    <color name="my_download_bg">#84d018</color>
+    <color name="sys_setting_bg">#c8d900</color>
+    <color name="about_us_bg">#22ad38</color>
+    <color name="base_bar_bottom_color">#0fc4d9</color>
+    <color name="base_text_color">#a5a5a5</color>
+    <color name="font_tab_unselected_color">#dddddd</color>
+    <color name="font_tab_selected_color">#a5a5a5</color>
+    <color name="button_bg_color">#0fc4d9</color>
+    <color name="button_bg_color_selector">#747ae9</color>
+    <color name="yellow_bg">#ffcc33</color>
+    <color name="orange_bg">#fe864b</color>
+    <color name="paink_bg">#ff6678</color>
+    <color name="green_bg">#0fc4d9</color>
+    <color name="blue_bg">#747ae9</color>
+    <color name="dark_blue_bg">#9755f6</color>
+
+</resources>
